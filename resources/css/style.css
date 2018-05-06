@@ -30,7 +30,8 @@ a {
 }
 
 img, video {
-	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
@@ -38,4 +39,10 @@ img, video {
 
 #cr {
 	text-align: right;
+}
+
+#camp {
+	margin-right: auto;
+	margin-left: auto;
+	max-width:100%;
 }
