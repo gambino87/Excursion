@@ -46,3 +46,14 @@ img, video {
 	margin-left: auto;
 	max-width:100%;
 }
+
+@media screen and (max-width: 375px){
+	video{
+		width: 290px;
+		height: 515px;
+		margin-left: : auto;
+		margin-right: auto;
+		padding-left: : auto;
+		padding-right: auto;
+	}
+}
