@@ -1,3 +1,4 @@
+/* General Formatting */
 body {
 	background-color: black;
 }
@@ -29,6 +30,13 @@ a {
 	color: aquamarine;
 }
 
+/* Copywrite Tag */
+#cr {
+	text-align: right;
+}
+
+
+/* Media Styling */
 img, video {
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -37,16 +45,14 @@ img, video {
 	margin-left: auto;
 }
 
-#cr {
-	text-align: right;
-}
-
 #camp {
 	margin-right: auto;
 	margin-left: auto;
 	max-width:100%;
 }
 
+
+/* Responsive Media for Mobile Screens */
 @media screen and (max-width: 375px){
 	video{
 		width: 290px;
